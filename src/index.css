@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #080808;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #222222;
+    border-radius: 5px;
+    border: 2px solid #080808;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #FF6A00;
+  }
+}
+
+/* Custom Gradients and Glows */
+.bg-orange-gradient {
+  background: linear-gradient(135deg, #FF6A00 0%, #FF8A30 100%);
+}
+
+.text-orange-gradient {
+  background: linear-gradient(135deg, #FF6A00 0%, #FFA052 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-dark-card {
+  background: linear-gradient(180deg, rgba(22, 22, 22, 0.8) 0%, rgba(14, 14, 14, 0.95) 100%);
+}
+
+.border-orange-glow {
+  box-shadow: 0 0 25px -5px rgba(255, 106, 0, 0.25);
+}
+
+.glow-orange-lg {
+  box-shadow: 0 10px 40px -10px rgba(255, 106, 0, 0.4);
+}
+
+/* Subtle pulse animation for floating elements */
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1deg); }
+}
+
+.animate-float {
+  animation: floatSlow 5s ease-in-out infinite;
+}
+
+@keyframes pulseGlow {
+  0%, 100% { opacity: 0.4; transform: scale(1); }
+  50% { opacity: 0.8; transform: scale(1.05); }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 4s ease-in-out infinite;
+}
+
