@@ -80,7 +80,7 @@ export const FinalCTA: React.FC<FinalCTAProps> = ({ onOpenWhatsAppModal }) => {
             <div className="lg:col-span-5 relative">
               <div className="relative rounded-[28px] overflow-hidden border border-neutral-800 bg-neutral-900 shadow-2xl">
                 <img
-                  src="https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=800&auto=format&fit=crop"
+                  src="/assets/cta-final.webp"
                   alt="Barra Forte Casa e Construção - Jaraguá do Sul"
                   className="w-full h-[320px] sm:h-[380px] object-cover"
                 />

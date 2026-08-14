@@ -140,7 +140,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWhatsAppModal }) => {
               {/* Main Image Container */}
               <div className="relative rounded-[28px] overflow-hidden border border-neutral-800/90 bg-[#111111] shadow-2xl shadow-black/80">
                 <img
-                  src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop"
+                  src="/assets/hero.webp"
                   alt="Barra Forte - Pisos e Materiais de Construção em Jaraguá do Sul"
                   className="w-full h-[420px] sm:h-[480px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
                 />

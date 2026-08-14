@@ -21,7 +21,7 @@ export const CATEGORIES: CategoryItem[] = [
     id: 'pisos-revestimentos',
     title: 'Pisos e Revestimentos',
     shortDesc: 'Porcelanatos, cerâmicas, laminados e vinílicos de alta durabilidade e design contemporâneo.',
-    image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?q=80&w=1000&auto=format&fit=crop',
+    image: '/assets/pisos-e-revestimentos.webp',
     isFeatured: true,
     badge: 'Destaque Especial',
     popularItems: ['Porcelanatos Grandes Format', 'Vinílicos Clicados', 'Cerâmicas Externas', 'Revestimentos 3D', 'Laminados Premium']
@@ -30,42 +30,42 @@ export const CATEGORIES: CategoryItem[] = [
     id: 'materiais-basicos',
     title: 'Materiais Básicos',
     shortDesc: 'Cimento, areia, tijolos, brita, argamassa e ferragens estruturais para todas as fases da obra.',
-    image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/materiais-basicos.webp',
     popularItems: ['Cimento CP-II / CP-V', 'Argamassas AC-I, AC-II e AC-III', 'Vergalhões e Telhas', 'Tijolos e Blocos']
   },
   {
     id: 'hidraulica',
     title: 'Hidráulica e Saneamento',
     shortDesc: 'Tubos, conexões, caixas d’água, torneiras, registros e sistemas de esgoto de alta resistência.',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/hidraulica-e-saneamento.webp',
     popularItems: ['Tubos Água Fria e Quente (PEX/PPR)', 'Caixas D’água Fortlev/Tigre', 'Metais e Misturadores', 'Conexões Esgoto']
   },
   {
     id: 'eletrica',
     title: 'Materiais Elétricos',
     shortDesc: 'Fios, cabos, disjuntores, quadros de distribuição, tomadas e iluminação LED eficiente.',
-    image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/materiais-eletricos.webp',
     popularItems: ['Cabos Flexíveis Antichama', 'Módulos e Interrupções', 'Lustres e Painéis LED', 'Quadros e Disjuntores DTM']
   },
   {
     id: 'tintas',
     title: 'Tintas e Acessórios',
     shortDesc: 'Tintas acrílicas, esmaltes, seladores, massas corridas, pincéis e rolos para acabamento perfeito.',
-    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/tintas-e-acessorios.webp',
     popularItems: ['Tinta Lavável Premium', 'Massa Acrílica Externa', 'Resinas e Vernizes', 'Trinchas e Rolo de Lã']
   },
   {
     id: 'ferramentas',
     title: 'Ferramentas e Equipamentos',
     shortDesc: 'Ferramentas manuais, elétricas, discos de corte, medidores a laser e EPIs indispensáveis.',
-    image: 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/ferramentas-e-equipamentos.webp',
     popularItems: ['Furadeiras e Parafusadeiras', 'Cortadores de Piso Profissionais', 'Níveis a Laser', 'EPIs e Proteção']
   },
   {
     id: 'acabamentos',
     title: 'Acabamentos e Metais',
     shortDesc: 'Bacias sanitárias, cubas, duchas, gabinetes e acessórios finais para banheiros e cozinhas.',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop',
+    image: '/assets/acabamentos-e-metais.webp',
     popularItems: ['Kits Bacia com Caixa Acoplada', 'Duchas Higiênicas e Chuveiros', 'Cubas de Inox e Apoio', 'Torneiras Gourmet']
   }
 ];
@@ -162,24 +162,24 @@ export const PISO_FINISHES = [
     id: 'polido',
     title: 'Porcelanatos Polidos',
     desc: 'Brilho espelhado, sofisticação e amplitude para salas e quartos modernos.',
-    img: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop'
+    img: '/assets/porcelanato-polido.webp'
   },
   {
     id: 'acetinado',
     title: 'Porcelanatos Acetinados',
     desc: 'Toque suave, toque fosco aconchegante e altíssima resistência a riscos.',
-    img: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?q=80&w=800&auto=format&fit=crop'
+    img: '/assets/porcelanato-acetinado.webp'
   },
   {
     id: 'vinilico',
     title: 'Pisos Vinílicos & Laminados',
     desc: 'Conforto térmico, acústico e visual amadeirado caloroso para dormitórios e escritórios.',
-    img: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800&auto=format&fit=crop'
+    img: '/assets/piso-vinilico.webp'
   },
   {
     id: 'externo',
     title: 'Revestimentos Externos / Borda',
     desc: 'Antiderrapantes, antiderrapantes rústicos e pedras decorativas para garagens e áreas gourmet.',
-    img: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop'
+    img: '/assets/revestimento-externo.webp'
   }
 ];

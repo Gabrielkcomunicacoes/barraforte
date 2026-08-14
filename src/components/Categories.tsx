@@ -103,11 +103,11 @@ export const Categories: React.FC<CategoriesProps> = ({ onOpenWhatsAppModal }) =
               </div>
 
               {/* Image side */}
-              <div className="lg:col-span-5 relative min-h-[260px] lg:min-h-full overflow-hidden">
+              <div className="lg:col-span-5 relative aspect-[4/3] lg:aspect-auto min-h-[300px] lg:min-h-full overflow-hidden bg-neutral-900">
                 <img
                   src={featuredCat.image}
                   alt={featuredCat.title}
-                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-[#080808] via-transparent to-transparent hidden lg:block" />
                 <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-transparent lg:hidden" />
@@ -130,20 +130,20 @@ export const Categories: React.FC<CategoriesProps> = ({ onOpenWhatsAppModal }) =
               className="group relative bg-white rounded-2xl overflow-hidden shadow-lg shadow-black/5 border border-neutral-200 hover:border-[#FF6A00]/50 hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 cursor-pointer flex flex-col justify-between"
             >
               {/* Image Header */}
-              <div className="relative h-48 overflow-hidden bg-neutral-900">
+              <div className="relative h-56 sm:h-60 w-full overflow-hidden bg-neutral-900">
                 <img
                   src={cat.image}
                   alt={cat.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  className="w-full h-full object-cover object-top group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                 
-                <div className="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/90 backdrop-blur-md text-[#080808] group-hover:bg-[#FF6A00] group-hover:text-white flex items-center justify-center transition-colors shadow-md">
+                <div className="absolute top-3.5 right-3.5 w-9 h-9 rounded-full bg-white/90 backdrop-blur-md text-[#080808] group-hover:bg-[#FF6A00] group-hover:text-white flex items-center justify-center transition-colors shadow-md z-10">
                   <ArrowUpRight className="w-5 h-5 group-hover:rotate-45 transition-transform" />
                 </div>
 
-                <div className="absolute bottom-3 left-4 right-4">
-                  <h4 className="text-xl font-extrabold text-white group-hover:text-[#FF6A00] transition-colors">
+                <div className="absolute bottom-3 left-4 right-4 z-10">
+                  <h4 className="text-xl font-extrabold text-white group-hover:text-[#FF6A00] transition-colors leading-tight drop-shadow-sm">
                     {cat.title}
                   </h4>
                 </div>

@@ -27,7 +27,7 @@ export const AboutUs: React.FC = () => {
               className="relative rounded-[32px] overflow-hidden border border-neutral-200 shadow-2xl bg-neutral-100"
             >
               <img
-                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1000&auto=format&fit=crop"
+                src="/assets/sobre-a-barra-forte.webp"
                 alt="Loja Barra Forte Casa e Construção em Jaraguá do Sul"
                 className="w-full h-[450px] sm:h-[520px] object-cover"
               />

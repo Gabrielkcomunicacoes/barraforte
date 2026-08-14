@@ -91,12 +91,12 @@ export const PisosSection: React.FC<PisosSectionProps> = ({ onOpenWhatsAppModal 
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="relative rounded-[32px] overflow-hidden border border-neutral-800 bg-neutral-900 shadow-2xl"
+              className="relative rounded-[32px] overflow-hidden border border-neutral-800 bg-neutral-900 shadow-2xl aspect-[4/3] sm:aspect-[16/11]"
             >
               <img
                 src={activeFinish.img}
                 alt={activeFinish.title}
-                className="w-full h-[450px] sm:h-[520px] object-cover object-center"
+                className="w-full h-full object-cover object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#080808] via-transparent to-transparent opacity-80" />
 

@@ -26,7 +26,7 @@ export const HumanService: React.FC<HumanServiceProps> = ({ onOpenWhatsAppModal 
               {/* Photo frame */}
               <div className="relative rounded-[28px] overflow-hidden border border-neutral-800 shadow-2xl bg-neutral-900">
                 <img
-                  src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop"
+                  src="/assets/atendimento-humanizado.webp"
                   alt="Atendimento Humano Barra Forte Jaraguá do Sul"
                   className="w-full h-[440px] sm:h-[480px] object-cover object-top"
                 />
